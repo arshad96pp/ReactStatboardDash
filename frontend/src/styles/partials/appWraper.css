@@ -1,0 +1,28 @@
+.dashboard-wraper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #e8edff;
+  transition: all 0.5s ease-in-out;
+
+}
+/* globel */
+.Dark-Mode {
+  background-color: rgb(66, 66, 66);
+  color: #e8edff;
+}
+.layout {
+  padding: 10px 30px;
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .dashboard-wraper{
+    height: auto;
+  }
+  .layout {
+    padding: 16px 20px;
+    width: 100%;
+    height: auto;
+  }
+}

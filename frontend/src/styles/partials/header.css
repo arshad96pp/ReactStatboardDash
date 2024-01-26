@@ -1,0 +1,124 @@
+header {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 10px;
+}
+.header-menu{
+  display: none;
+}
+.avatar-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+.avatar-section span {
+  border: 1px solid rgba(0, 0, 0, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* dark mode */
+.dark-mode-icon span {
+  border: 1px solid rgba(255, 255, 255, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.dark-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+/* dark mode style */
+.avatar-dark-mode {
+  color: black;
+}
+.avatar .name-section h5 {
+  font-size: 10px;
+}
+.avatar .name-section p {
+  font-size: 7px;
+}
+
+.avatar-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar-image img {
+  width: 30px;
+}
+
+@media (max-width: 600px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-menu{
+     display: block;
+  }
+  .header-menu span{
+    /* border: 1px solid rgba(0, 0, 0, 0.329); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .avatar-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .avatar-section span {
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  /* dark mode */
+  .dark-mode-icon span {
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}

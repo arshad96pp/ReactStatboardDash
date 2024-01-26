@@ -1,0 +1,33 @@
+.table {
+  width: 1010px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ant-pagination {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 44px !important;
+}
+
+@media (max-width: 600px) {
+  .table {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  .table {
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+ 
+}

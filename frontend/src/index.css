@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+@media(max-width:480px){
+  html,body{
+    overflow-x: hidden;
+  }
+}
+@media(min-width:481px){
+  html,body{
+    overflow-x: hidden;
+  }
+}
