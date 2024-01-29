@@ -4,6 +4,7 @@
   height: 100vh;
   background-color: #e8edff;
   transition: all 0.5s ease-in-out;
+  gap: 30px;
 
 }
 /* globel */
@@ -15,6 +16,9 @@
   padding: 10px 30px;
   flex: 1;
 }
+.route-layout{
+  padding: 0px 10px;
+}
 
 @media (max-width: 600px) {
   .dashboard-wraper{
@@ -24,5 +28,8 @@
     padding: 16px 20px;
     width: 100%;
     height: auto;
+  }
+  .route-layout{
+    padding: 0px 0px;
   }
 }

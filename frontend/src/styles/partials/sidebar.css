@@ -148,6 +148,9 @@
     transition: all 0.6s ease-in-out;
     z-index: 100; */
   }
+  .sidebar  li{
+    opacity: 0;
+  }
   .openSideBar .closeSideBar{
     display: block;
     position: absolute;

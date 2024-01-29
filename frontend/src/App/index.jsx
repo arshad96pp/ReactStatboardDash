@@ -15,7 +15,7 @@ function App() {
       <SideBar />
       <div className="layout" >
         <Header />
-        <div onClick={()=>handleCloseSideBar()}>
+        <div className="route-layout" onClick={()=>handleCloseSideBar()}>
         <Route />
         </div>
       </div>

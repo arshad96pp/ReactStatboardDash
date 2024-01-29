@@ -1,26 +1,27 @@
 .dashboard-layout {
   width: 100%;
-  /* height: 100%; */
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 .graph-and-chart {
   display: flex;
+  justify-content: start;
   width: 100%;
   gap: 25px;
   /* background-color: red; */
 }
 .graph {
-  width: 900px;
+  width: 850px;
   background-color: rgb(255, 255, 255);
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .chart {
   /* background-color: red; */
   width: 400px;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +32,7 @@
 }
 .table-area {
   display: flex;
-  /* flex: 1; */
+  justify-content: start;
   width: 100%;
   gap: 25px;
   height: 310px;
@@ -57,7 +58,7 @@
   .chart {
     /* background-color: red; */
     width: 400px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255);
   }
 }
@@ -79,7 +80,7 @@
   .graph {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 10px;
   }
   .graph .canvas {
     width: 100% !important;
@@ -87,7 +88,7 @@
   .chart {
     width: 100%;
     /* background-color: red; */
-    border-radius: 20px;
+    border-radius: 10px;
     height: 300px;
     background-color: rgb(255, 255, 255);
   }
